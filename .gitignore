@@ -1,0 +1,43 @@
+# ==========================================
+# FRONTEND RULES
+# ==========================================
+# Dependencies
+frontend/node_modules/
+frontend/.pnpm-store/
+
+# Production build outputs
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+
+# Frontend local env files
+frontend/.env*.local
+
+# ==========================================
+# BACKEND RULES
+# ==========================================
+# Dependencies
+backend/node_modules/
+backend/venv/
+backend/__pycache__/
+backend/.venv/
+
+# Environment Variables & Secrets (CRITICAL)
+backend/.env
+backend/.env.local
+backend/*.env
+
+# Backend build/logs
+backend/dist/
+backend/build/
+backend/logs/
+backend/*.log
+
+# ==========================================
+# GLOBAL / OS RULES
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
